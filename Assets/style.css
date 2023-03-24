@@ -1,0 +1,32 @@
+:root{
+    --flex-box: flex;
+}
+header{
+    text-align: center;
+}
+.boxlayout{
+    display: var(--flex-box);
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+    margin: 100px;
+    padding: 0;
+    gap: 400px;
+
+}
+.box1{
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+.box2{
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
